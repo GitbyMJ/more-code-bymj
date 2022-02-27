@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>CSS Basics with MJ: Position Cheatsheet</title>
+        <link href='styles.css' rel='stylesheet' type='text/css'/>
+    </head>
+
+    <main>
+        <header class="header">
+            <h1>Welcome to CSS Basic's with MJ</h1>
+            <p>Do you think you have what it takes to become a CSS pro?</p>
+        </header>
+    </main>
+
+    <body>
+
+        <section id="Intro" name="Introduction">
+            <h2>Flow of HTML</h2>
+                <p>There are several ways in which you can adjust the position of certain HTML elements using CSS! These properties are position, display, z-index, float, and clear.<strong> Lets talk about position.</strong></p>
+            <h2>Positioning like a pro!</h2>
+                <p>The placement of box HTML elements can be changed with the <strong class="position">position</strong> property. The default value is static, which pushes all elements to the left side of the page. Let's find out more about the other <strong class="position">position</strong> properties.</p>
+                <aside><em>Remember: Default properties and values do not need to be specified!</em></aside>
+        </section>
+
+        <section class="position-property" name="relative">
+            <h3>Relative</h3>
+                <p>Use the relative property to set the position of an HTML element relative, or proportionally, to it's default position on the webpage.</p>
+                <p>This is specified with the top, bottom, left, and right offset values represented in pixels, ems, or percentages.</p>
+            <ul id="offset-values">
+                <li>top: moves the element <strong>down</strong> from the top.</li>
+                <li>bottom: moves the element <strong>up</strong> from the bottom.</li>
+                <li>left: moves the element to the <strong>right</strong>.</li>
+                <li>right: moves the element to the <strong>left</strong></li>
+            </ul><br>
+        <table class="property-table" name="relative-table">
+            <thead>
+                <th colspan="2">Examples of the relative property at work</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="Example">Example</td>
+                    <td id="Explaination">Explaination</td>
+                </tr>
+                <tr>
+                    <td class="Example">.container {<br>
+                    position: relative;<br>
+                    top: 400px;<br>
+                    }</td>
+                    <td class="Explaination">This code will place the container element 400 pixels from the top of the webpage.</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+
+        <section class="position-property" name="absolute">
+            <h3>Absolute</h3>
+                <p>When using the absolute property, other elements ignore the position of the element and therefore overlap it. The element will be positioned relative to its closest positioned parent element, and offset properties will be used to determine the final position. The <a href="#offset-values">same offset values</a> apply here.</p>
+            <table class="position-table" name="absolute-table">
+                <thead>
+                    <th colspan="2">Example of the absolute property at work</th>
+                </thead>
+            <tbody>
+                <tr>
+                    <td class="head">Example</td>
+                    <td class="head">Explaination</td>
+                </tr>
+                <tr>
+                    <td class="Example">#red {<br>
+                    background-color: rgb(255, 0, 0);<br>
+                    position: absolute;<br>
+                    }<br>
+                    <br>
+                    #blue {<br>
+                    background-color: rgb(0, 0, 255);<br>
+                    position: relative;<br>
+                    top: 60px;<br>
+                    }</td>
+                    <td class="Explaination">The absolute value is used to show the circle objects overlapping. This example also uses the relative value.</td>
+                </tr>
+            </tbody>
+            </table>
+        </section>
+
+        <section class="holdup">
+            <div class="container">
+                <div class="col" name="fixed">
+                    <h4>Fixed</h4>
+                    <p>Using the fixed value will fix, or "stick", the element in its set offset position regardless of when a user scrolls.</p><aside><em> This is typically used for elements such as navigation bars!</em></aside>
+                </div>
+                <div class="col" name="sticky">
+                    <h4>Sticky</h4>
+                    <p>Using this value will cause the element to behave the same as the fixed property, but instead will stick to its position until it reaches the specified <a href="#offset-values">offset value</a>, and there it will rejoin the HTML flow.</p>
+                </div>
+            </div> 
+        </section>
+
+        <section class="lesson-buttons">
+            <div class="container">
+                <a href="#" class="button"> Previous Lesson</a>
+                <a href="#" class="button"> Next Lesson</a>
+            </div>
+        </section>    
+
+        </body>
+
+        <footer>
+            <p>Congratulations! You've reached the end of the internet!</p>
+            <p>Created by MJ &copy; 2022</p>
+        </footer>
+
+    </html>

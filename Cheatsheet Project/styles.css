@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    font-style: normal;
+    font-weight: 400, 700;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/balsamiqsans/v9/P5sEzZiAbNrN8SB3lQQX7Pncwd4XIA.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  html, body {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ffebcd;
+    width: 700px;
+  
+  }
+  
+  header {
+    background-color: slategray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    border: 9px dotted lavender;
+  }
+  
+   h1 {
+    font-family: 'Balsamiq Sans';
+    color: bisque;
+  }
+  
+  p, li {
+    font-family: Tahoma;
+    text-align: justified;
+  }
+  
+  li {
+    width: 300px;
+    margin: 0px auto;
+  }
+  
+  h2, h3, h4 {
+    font-family: 'Balsamiq Sans';
+    color: slategray;
+    text-align: center;
+  }
+  
+  tr, td, th {
+    font-family: Tahoma;
+    text-align: center;
+    border: 1px solid;
+  }
+  
+  aside {
+    font-family: Tahoma;
+    border: 2px dashed black;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  table {
+    border: 2px solid;
+    outline: 2px;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  footer {
+    background-color: slategray;
+    font-family: 'Balsamiq Sans';
+    font-weight: 700px;
+    color: bisque;  
+    margin: 20px 0px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 10px;
+  }
+  
+  .property-table .Example {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    text-align: left;
+    width: 200px;
+  }
+  
+  .position-table .Example {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    text-align: left;
+    width: 270px;
+  }
+  
+  .container {
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+  }
+  
+  .position-property2 .col {
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+  }
+  
+  .button {
+    background-color: slategray;
+    color: bisque;
+    font-family: 'Balsamiq Sans';
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+  }
+  
+  .button:hover {
+    border: 2px solid slategray;
+    background-color: bisque;
+    color: slategray;
+    text-decoration: none;
+  }
+  
+  .lesson-buttons {
+    display: inline-block;
+    width: 725px;
+    margin: 10px auto;
+    }
+  
